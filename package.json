@@ -1,0 +1,16 @@
+{
+  "name": "bottom-navbar",
+  "version": "0.1.0",
+  "description": "Bottom navbar container for cms application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cms",
+    "navbar",
+    "koco"
+  ],
+  "author": "Maxime Séguin <info@maximeseguin.com> (http://www.maximeseguin.com/)",
+  "license": "MIT"
+}
