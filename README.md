@@ -1,1 +1,2 @@
-# Bottom Navbar
+# koco-bottom-navbar
+Bottom navbar for cms application
