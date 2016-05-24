@@ -1,20 +1,20 @@
 {
-    "name": "bottom-navbar",
-    "version": "0.1.0",
-    "authors": [
-        "Maxime Séguin <maxime.forget-seguin@radio-canada.ca>"
-    ],
-    "description": "Bottom navbar for cms application",
-    "keywords": [
-        "cms",
-        "koco",
-        "navbar"
-    ],
-    "scripts": {
-        "build": "rm -rf dist && mkdir dist && cp -r src/* dist && rm -rf dist/*.js && babel src --out-dir dist --modules umd --presets es2015,stage-0"
-    },
-    "license": "MIT",
-    "dependencies": {
-        "bootstrap": "^3.3.4"
-    }
+  "name": "bottom-navbar",
+  "version": "1.0.0",
+  "authors": [
+    "Maxime Séguin <maxime.forget-seguin@radio-canada.ca>"
+  ],
+  "description": "Bottom navbar for cms application",
+  "keywords": [
+    "cms",
+    "koco",
+    "navbar"
+  ],
+  "scripts": {
+    "build": "rm -rf dist && mkdir dist && cp -r src/* dist && rm -rf dist/*.js && babel src --out-dir dist --modules umd --presets es2015,stage-0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^3.3.4"
+  }
 }
