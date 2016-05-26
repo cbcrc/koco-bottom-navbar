@@ -14,8 +14,7 @@
     "build": "rm -rf dist && mkdir dist && cp -r src/* dist && rm -rf dist/*.js && babel src --out-dir dist --modules umd --presets es2015,stage-0"
   },
   "license": "MIT",
-  "dependencies": {
-    "bootstrap": "^3.3.6",
+  "peerDependencies": {
     "koco": "^1.0.0"
   },
   "devDependencies": {
